@@ -5,7 +5,7 @@ export default function SectionTitle({
   centered = true,
 }: {
   title: string;
-  title2:string;
+  title2?:string;
   subtitle?: string;
   centered?: boolean;
 }) {

@@ -64,7 +64,7 @@ export default function Home() {
       {/* Focus Areas Teaser */}
       <section className="py-20 bg-neutral-light">
         <div className="container mx-auto px-6">
-          <SectionTitle title="Our Focus Areas" title2={''} />
+          <SectionTitle title2="Our Focus Areas" title={''} />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <CauseCard
               number="01"

@@ -38,7 +38,7 @@ export default function GetInvolved() {
 
           {/* Donation Form UI */}
           <div className="bg-white p-10 rounded-xl shadow-lg">
-            <h3 className="text-3xl font-bold text-secondary mb-8 text-center">Make a Donation</h3>
+            <h3 className="text-3xl font-bold text-black mb-8 text-center">Make a Donation</h3>
 
             <div className="grid grid-cols-3 gap-4 mb-6">
               {presetAmounts.map((val) => (
@@ -81,7 +81,7 @@ export default function GetInvolved() {
               </div>
             )}
 
-            <button className="w-full bg-accent hover:bg-yellow-400 text-secondary py-5 rounded-lg text-xl font-bold transition">
+            <button className="w-full bg-yellow-400 hover:bg-yellow-500 text-secondary py-5 rounded-lg text-xl font-bold transition">
               Donate ₦{amount !== 'other' ? Number(amount).toLocaleString() : customAmount || '___'}
             </button>
 
