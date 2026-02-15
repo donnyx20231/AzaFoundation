@@ -81,7 +81,7 @@ export default function GetInvolved() {
               </div>
             )}
 
-            <button className="w-full bg-yellow-400 hover:bg-yellow-500 text-secondary py-5 rounded-lg text-xl font-bold transition">
+            <button className="w-full bg-pink-500 hover:bg-pink-600 text-secondary py-5 rounded-lg text-xl font-bold transition">
               Donate ₦{amount !== 'other' ? Number(amount).toLocaleString() : customAmount || '___'}
             </button>
 

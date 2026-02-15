@@ -106,7 +106,7 @@ export default function Footer() {
             </p>
             <Link
               href="/get-involved"
-              className="inline-flex bg-yellow-400 hover:bg-yellow-500 hover:scale-105 hover:shadow-lg text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-lg sm:text-xl transition-all duration-200 cursor-pointer"
+              className="inline-flex bg-pink-500 hover:bg-pink-600 hover:scale-105 hover:shadow-lg text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-lg sm:text-xl transition-all duration-200 cursor-pointer"
             >
               Donate Now
             </Link>

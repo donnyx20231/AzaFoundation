@@ -34,10 +34,10 @@ export default function Header() {
             />
           </div>
           <div className="flex flex-col">
-            <span className="text-primary font-bold text-lg sm:text-xl md:text-2xl">
+            <span className="text-black font-bold text-lg sm:text-xl md:text-2xl">
               AZARIAH
             </span>
-            <span className="text-secondary text-xs sm:text-sm font-medium">
+            <span className="text-black text-xs sm:text-sm font-medium">
               Life Care Foundation
             </span>
           </div>

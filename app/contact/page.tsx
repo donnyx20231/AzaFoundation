@@ -35,21 +35,21 @@ export default function ContactPage() {
       <div className="container mx-auto px-4 sm:px-6 max-w-7xl">
         {/* Header Section */}
         <div className="mb-10 sm:mb-12 md:mb-16">
-          <div className="inline-block bg-orange-500 text-white px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold mb-4 sm:mb-6">
+          <div className="inline-block bg-pink-500 text-white px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-semibold mb-4 sm:mb-6">
             CONTACT US
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
-            WE LOVE TALKING CONSTRUCTION
+            WE LOVE MAKING THE WORLD A BETTER PLACE
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl leading-relaxed">
-            We'd love to hear from you. Whether you have a question about our services, pricing, or anything else, our team is ready to answer all your questions.
+            We'd love to hear from you. Whether you have a question about our services or anything else, our team is ready to answer all your questions.
           </p>
         </div>
 
         {/* Contact Section */}
         <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
           {/* Contact Info - Orange Box */}
-          <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl sm:rounded-3xl p-8 sm:p-10 md:p-12 text-white shadow-2xl relative overflow-hidden">
+          <div className="bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl sm:rounded-3xl p-8 sm:p-10 md:p-12 text-white shadow-2xl relative overflow-hidden">
             {/* Decorative circles */}
             <div className="absolute bottom-0 left-0 w-48 h-48 sm:w-64 sm:h-64 bg-orange-400 rounded-full opacity-20 -mb-24 sm:-mb-32 -ml-24 sm:-ml-32"></div>
             <div className="absolute top-0 right-0 w-32 h-32 sm:w-48 sm:h-48 bg-orange-600 rounded-full opacity-20 -mt-16 sm:-mt-24 -mr-16 sm:-mr-24"></div>
