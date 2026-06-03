@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-secondary text-white">
+    <footer className="bg-black text-white">
       <hr className="my-4 sm:my-8 border-gray-300" />
       <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 lg:gap-16 xl:gap-20">

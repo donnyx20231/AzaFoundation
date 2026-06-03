@@ -40,7 +40,7 @@ export default function AboutPage() {
           </div>
           <div className="relative h-64 sm:h-80 md:h-96 rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/Doctor.jpeg"
+              src="/images/room.jpeg"
               alt="Family with doctor"
               fill
               className="object-cover"

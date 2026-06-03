@@ -61,7 +61,7 @@ export default function ContactPage() {
                 {/* Phone */}
                 <div className="flex items-start space-x-4 sm:space-x-6">
                   <div className="bg-white bg-opacity-20 rounded-full p-3 sm:p-4 flex-shrink-0">
-                    <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                    <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-black" />
                   </div>
                   <div>
                     <h3 className="text-xs sm:text-sm font-semibold uppercase tracking-wide mb-2 opacity-90">CALL US</h3>
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 {/* Email */}
                 <div className="flex items-start space-x-4 sm:space-x-6">
                   <div className="bg-white bg-opacity-20 rounded-full p-3 sm:p-4 flex-shrink-0">
-                    <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                    <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-black" />
                   </div>
                   <div>
                     <h3 className="text-xs sm:text-sm font-semibold uppercase tracking-wide mb-2 opacity-90">EMAIL US</h3>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 {/* Address */}
                 <div className="flex items-start space-x-4 sm:space-x-6">
                   <div className="bg-white bg-opacity-20 rounded-full p-3 sm:p-4 flex-shrink-0">
-                    <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                    <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-black" />
                   </div>
                   <div>
                     <h3 className="text-xs sm:text-sm font-semibold uppercase tracking-wide mb-2 opacity-90">VISIT US</h3>
@@ -178,6 +178,14 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
+
+      <a
+        href="tel:+2348032269519"
+        className="fixed bottom-6 right-6 z-50 inline-flex items-center justify-center w-14 h-14 rounded-full bg-pink-500 text-white shadow-2xl ring-1 ring-white/20 transition hover:bg-pink-600 md:hidden"
+        aria-label="Call us"
+      >
+        <Phone className="w-6 h-6" />
+      </a>
     </div>
   );
 }

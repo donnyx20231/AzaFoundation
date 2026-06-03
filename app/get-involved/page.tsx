@@ -34,6 +34,14 @@ export default function GetInvolved() {
                 Account Name: Caleb Asuquo<br />
               </p>
             </div>
+             <div className="mt-18">
+              <h4 className="text-3xl font-semibold mb-4">Our Foreign Bank Details</h4>
+              <p className="text-gray-700 text-2xl">
+                Bank:UBA <br />
+                Account Number:1020144251<br />
+                Account Name: Caleb Asuquo<br />
+              </p>
+            </div>
           </div>
 
           {/* Donation Form UI */}

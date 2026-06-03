@@ -67,7 +67,7 @@ export default function Header() {
         {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
-          className="lg:hidden text-white bg-primary hover:bg-primary/90 p-3 rounded-lg shadow-md transition-all"
+          className="lg:hidden text-white bg-black hover:bg-gray-900 p-3 rounded-lg shadow-md transition-all"
           aria-label="Toggle menu"
         >
           {isMenuOpen ? <X size={28} /> : <Menu size={28} />}

@@ -42,23 +42,23 @@ export default function ImpactPage() {
           {/* Photo Gallery */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
             <div className="relative aspect-square rounded-2xl overflow-hidden">
-              <Image src="/images/him.jpg" alt="Vaccination project" fill className="object-cover" />
+              <Image src="/images/hosp3.jpeg" alt="Vaccination project" fill className="object-cover" />
             </div>
             <div className="relative aspect-square rounded-2xl overflow-hidden">
-              <Image src="/images/seth.jpg" alt="Vaccination project" fill className="object-cover" />
+              <Image src="/images/hosp4.jpeg" alt="Vaccination project" fill className="object-cover" />
             </div>
             <div className="relative aspect-square rounded-2xl overflow-hidden">
-              <Image src="/images/yannis.jpg" alt="Vaccination project" fill className="object-cover" />
+              <Image src="/images/madam esther.jpeg" alt="Vaccination project" fill className="object-cover" />
             </div>
             <div className="relative aspect-square rounded-2xl overflow-hidden">
-              <Image src="/images/Doctor.jpeg" alt="Vaccination project" fill className="object-cover" />
+              <Image src="/images/hosp1.jpeg" alt="Vaccination project" fill className="object-cover" />
             </div>
           </div>
 
           <div className="prose text-gray-700">
             <h3 className="text-2xl font-semibold">Project Impact</h3>
             <ul className="list-disc pl-6 space-y-2 text-lg">
-              <li>1 million girls (ages 9–14) vaccinated within one month</li>
+              <li>10,000 girls (ages 9–14) vaccinated within one month</li>
               <li>Massive adolescent turnout demonstrating strong community acceptance</li>
               <li>Extensive sensitization across schools, markets, churches, and local communities</li>
               <li>Active involvement of community leaders in mobilizing support</li>
